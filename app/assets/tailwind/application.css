@@ -1,1 +1,7 @@
 @import "tailwindcss";
+
+@theme {
+  --color-fg-high: oklch(0% 0 0);
+  --color-fg-highAlt: oklch(100% 0 0);
+  --color-fg-low: oklch(55.59% 0.0107 62.46);
+}

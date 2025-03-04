@@ -1527,3 +1527,139 @@ Processing by Rails::PwaController#manifest as JSON
 Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+Started GET "/rails/view_components/caption_component/with_default_title" for ::1 at 2025-03-04 09:13:54 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ViewComponentsController#previews as HTML
+  Parameters: {"path"=>"caption_component/with_default_title"}
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/ivangriessel/.asdf/installs/ruby/3.3.5/lib/ruby/gems/3.3.0/gems/view_component-3.21.0/app/views/view_components/preview.html.erb within layouts/application
+  Rendered /Users/ivangriessel/.asdf/installs/ruby/3.3.5/lib/ruby/gems/3.3.0/gems/view_component-3.21.0/app/views/view_components/preview.html.erb within layouts/application (Duration: 3.1ms | GC: 2.2ms)
+  Rendered layout layouts/application.html.erb (Duration: 149.3ms | GC: 74.5ms)
+Completed 200 OK in 169ms (Views: 158.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 82.1ms)
+
+
+Started GET "/manifest.json" for ::1 at 2025-03-04 09:13:55 +0000
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/rails/view_components/caption_component/with_default_title" for ::1 at 2025-03-04 09:26:41 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ViewComponentsController#previews as HTML
+  Parameters: {"path"=>"caption_component/with_default_title"}
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/ivangriessel/.asdf/installs/ruby/3.3.5/lib/ruby/gems/3.3.0/gems/view_component-3.21.0/app/views/view_components/preview.html.erb within layouts/application
+  Rendered /Users/ivangriessel/.asdf/installs/ruby/3.3.5/lib/ruby/gems/3.3.0/gems/view_component-3.21.0/app/views/view_components/preview.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 58.1ms | GC: 19.0ms)
+Completed 200 OK in 70ms (Views: 61.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 19.6ms)
+
+
+Started GET "/manifest.json" for ::1 at 2025-03-04 09:26:42 +0000
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.5ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/rails/view_components/caption_component/with_default_title" for ::1 at 2025-03-04 09:53:31 +0000
+Processing by ViewComponentsController#previews as HTML
+  Parameters: {"path"=>"caption_component/with_default_title"}
+  Rendering layout layouts/application.html.erb
+  Rendering /Users/ivangriessel/.asdf/installs/ruby/3.3.5/lib/ruby/gems/3.3.0/gems/view_component-3.21.0/app/views/view_components/preview.html.erb within layouts/application
+  Rendered /Users/ivangriessel/.asdf/installs/ruby/3.3.5/lib/ruby/gems/3.3.0/gems/view_component-3.21.0/app/views/view_components/preview.html.erb within layouts/application (Duration: 3.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | GC: 0.0ms)
+Completed 200 OK in 40ms (Views: 20.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/manifest.json" for ::1 at 2025-03-04 09:53:31 +0000
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.2ms | GC: 0.0ms)
+Completed 200 OK in 9ms (Views: 0.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/playground" for ::1 at 2025-03-04 14:25:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PlaygroundController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering playground/index.html.erb within layouts/application
+  Rendered playground/index.html.erb within layouts/application (Duration: 0.9ms | GC: 0.7ms)
+  Rendered layout layouts/application.html.erb (Duration: 46.8ms | GC: 8.9ms)
+Completed 200 OK in 79ms (Views: 52.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 19.3ms)
+
+
+Started GET "/manifest.json" for ::1 at 2025-03-04 14:25:04 +0000
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/playground" for ::1 at 2025-03-04 14:26:32 +0000
+Processing by PlaygroundController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering playground/index.html.erb within layouts/application
+  Rendered playground/index.html.erb within layouts/application (Duration: 3.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check "Hello, World!"
+
+<% render(CaptionComponent.new(label: "This is a label") %>
+):
+
+Causes:
+ActiveSupport::SyntaxErrorProxy (/Users/ivangriessel/github/treat/app/views/playground/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+...new(label: "This is a label") ;
+...                              ^
+)
+1:    "Hello, World!"
+2:    
+3:    <% render(CaptionComponent.new(label: "This is a label") %>
+  
+app/views/playground/index.html.erb:3: syntax error, unexpected ';', expecting ')'
+Started GET "/playground" for ::1 at 2025-03-04 14:27:53 +0000
+Processing by PlaygroundController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering playground/index.html.erb within layouts/application
+  Rendered playground/index.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | GC: 0.0ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check "Hello, World!"
+
+<%= render(CaptionComponent.new(label: "This is a label") %>
+):
+
+Causes:
+ActiveSupport::SyntaxErrorProxy (/Users/ivangriessel/github/treat/app/views/playground/index.html.erb:5: syntax error, unexpected `end', expecting ')'
+          end
+          ^~~
+)
+1:    "Hello, World!"
+2:    
+3:    <%= render(CaptionComponent.new(label: "This is a label") %>
+  
+app/views/playground/index.html.erb:5: syntax error, unexpected `end', expecting ')'
+Started GET "/playground" for ::1 at 2025-03-04 14:28:43 +0000
+Processing by PlaygroundController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering playground/index.html.erb within layouts/application
+  Rendered playground/index.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | GC: 2.5ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 2.5ms)
+
+
+Started GET "/manifest.json" for ::1 at 2025-03-04 14:28:43 +0000
+Processing by Rails::PwaController#manifest as JSON
+  Rendering pwa/manifest.json.erb
+  Rendered pwa/manifest.json.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
