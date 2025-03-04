@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "tailwindcss";
 
 @theme {
+  --font-body: "Atkinson Hyperlegible", ui-sans-serif, system-ui, sans-serif;
   --color-fg-high: oklch(0% 0 0);
   --color-fg-highAlt: oklch(100% 0 0);
   --color-fg-low: oklch(55.59% 0.0107 62.46);
